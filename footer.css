@@ -2,9 +2,14 @@ footer {
     position: absolute;
     bottom: 0;
     display: flex;
+    flex-direction: column;
     width: 100%;
     background-color: #061200;
     padding: 25px;
+}
+
+.links {
+    display: flex;
 }
 
 .footerObject{
@@ -38,4 +43,17 @@ footer {
 .Object4 {
     width: 200px;
     height: 50px;
+}
+
+/* social media */
+
+.socialMedia{
+    width: 300px;
+    height: 50px;
+    display: flex;
+}
+
+.socialMediaIcons img{
+    height: 40px;
+    margin: 5px;
 }
