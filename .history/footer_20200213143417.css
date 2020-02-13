@@ -1,0 +1,33 @@
+footer {
+    position: relative;
+    bottom: 0;
+    flex-grow: 1;
+    display: flex;
+    background-color: #061200;
+    padding: 25px;
+}
+
+.footerObject{
+    background-color: yellowgreen;
+    margin: 20px;
+}
+
+.Object1 {
+    width: 300px;
+    height: 100px;
+}
+
+.Object2 {
+    width: 300px;
+    height: 75px;
+}
+
+.Object3 {
+    width: 200px;
+    height: 40px;
+}
+
+.Object4 {
+    width: 300px;
+    height: 100px;
+}

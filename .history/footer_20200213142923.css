@@ -1,0 +1,15 @@
+footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: #061200;
+}
+
+.footerObject{
+    background-color: white;
+}
+
+.Object1 {
+    width: 250px;
+    height: 50px;
+}
