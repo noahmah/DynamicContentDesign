@@ -11,10 +11,12 @@
     height: 50px;
     background-color: yellowgreen;
     margin: 25px;
+    border-radius: 10px;
 }
 
 #modalBottom {
     width: 300px;
     height: 400px;
     background-color: yellowgreen;
+    border-radius: 10px;
 }
