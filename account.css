@@ -18,6 +18,9 @@
     width: 150px;
     margin: 10px;
     background-color: yellowgreen;
+    background-image: url("https://www.thispersondoesnotexist.com/image");
+    background-size: cover;
+    border-radius: 30px;
 }
 
 .username {
