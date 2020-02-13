@@ -17,4 +17,6 @@
     width: 300px;
     height: 400px;
     background-color: yellowgreen;
+    display: block;
+    transition: 2s;
 }
