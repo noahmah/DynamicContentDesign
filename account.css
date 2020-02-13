@@ -5,23 +5,25 @@
     color: white;
     border: solid white 5px;
     position: absolute;
-    top: 30px;
+    top: 100px;
     left: 0;
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
     
 }
 
 .avatar {
-    width: 100px;
     height: 200px;
-    padding: 10px;
+    width: 150px;
+    margin: 10px;
     background-color: yellowgreen;
 }
 
-.avatar {
-    width: 150px;
-    height: 50px;
-    padding: 10px;
+.username {
+    flex: 3;
+    padding: 25px;
     color: white;
+    font-size: 16px;
+    font-family: sans-serif;
 }
