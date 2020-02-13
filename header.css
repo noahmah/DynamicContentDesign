@@ -2,10 +2,6 @@ html , body {
     margin: 0;
 }
 
-#app {
-    display: flex;
-}
-
 #header {
     position: fixed;
     display: flex;
@@ -15,10 +11,28 @@ html , body {
 }
 
 #menu {
+    display: flex;
     position: fixed;
     top: 75px;
     right: 50px;
     width: 50%;
     height: 50px;
     background-color: white;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#menu ul {
+    display: flex;
+    list-style: none;
+}
+
+#menu li {
+    padding: 5px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+#menu li:hover {
+    color: yellowgreen;
 }
